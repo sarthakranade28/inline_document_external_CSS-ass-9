@@ -1,0 +1,60 @@
+ body {
+      margin: 0;
+      background: #38d8c5;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+   
+    nav {
+      background: #264653;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .services, .doctors {
+      display: flex;
+      justify-content: space-around;
+    }
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 10px;
+      width: 250px;
+      border-radius: 10px;
+    }
+    .contact form {
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #12564e;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+    }
+    footer {
+      background: #264653;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  
